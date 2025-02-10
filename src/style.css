@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  scroll-behavior: smooth;
+* {
+  @apply scroll-smooth;
+  font-family: "Noto Sans TC", "LXGW WenKai Mono TC", sans-serif;
 }
 
 nav > ul > li {

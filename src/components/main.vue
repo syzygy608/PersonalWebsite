@@ -6,15 +6,15 @@
                     <div class = "w-3/12 flex justify-center">
                         <img src = "/avatar.jpg" alt = "avatar" class = "w-[15rem] px-3 rounded-lg md:rounded-none" />
                     </div>
-                    <div class = "text-md w-9/12">
-                        Hello, My name is <span class = "font-bold">Han-Ping Wu</span>. 
+                    <div class = "text-md font-light w-9/12">
+                        Hello, My name is <span class = "font-medium">Han-Ping Wu</span>. 
                         I am a undergraduate student at National Chung Cheng University, Taiwan.
-                        I am interested in <span class = "font-bold">Web Development</span> and <span class = "font-bold">Algorithm</span>.
-                        I am currently working on research about <span class = "font-bold">Pairwise Comparison</span> and <span class = "font-bold">Ranking</span>
-                        in <span class = "font-bold">Digital Society and Security Lab (DIGI-SSL)</span> at CCU.
-                        I will graduate in <span class = "font-bold">June 2025</span> and join the <span class = "font-bold">Master's Program</span> at NCKU.
-                        In NCKU I will join the <span class = "font-bold">Supercomputing and Intelligent Visual System Laboratory (SIVSL)</span> and continue studying
-                        <span class = "font-bold">Algorithm</span> specially in graph theory.
+                        I am interested in <span class = "font-medium">Web Development</span> and <span class = "font-medium">Algorithm</span>.
+                        I am currently working on research about <span class = "font-medium">Pairwise Comparison</span> and <span class = "font-medium">Ranking</span>
+                        in <span class = "font-medium">Digital Society and Security Lab (DIGI-SSL)</span> at CCU.
+                        I will graduate in <span class = "font-medium">June 2025</span> and join the <span class = "font-medium">Master's Program</span> at NCKU.
+                        In NCKU I will join the <span class = "font-medium">Supercomputing and Intelligent Visual System Laboratory (SIVSL)</span> and continue studying
+                        <span class = "font-medium">Algorithm</span> specially in graph theory.
                     </div>
                 </div>
                 <div class = "flex flex-col items-center p-3">
