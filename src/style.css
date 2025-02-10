@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+nav > ul > li {
+  @apply p-2 rounded-lg hover:bg-amber-300 hover:text-black duration-300 ease-in;
+}
