@@ -1,12 +1,12 @@
 <template>
     <div class = "flex min-h-[calc(100dvh-6rem)]">
-        <div class = "flex w-[min(90%,50rem)] mx-auto my-3">
+        <div class = "flex w-[min(100%,50rem)] mx-auto">
             <div class = "flex flex-col justify-center">
-                <div class = "flex flex-col md:flex-row items-center bg-amber-50 py-3" id = "about">
+                <div class = "flex flex-col md:flex-row items-center bg-amber-50 py-6" id = "about">
                     <div class = "w-3/12 flex justify-center">
-                        <img src = "/avatar.jpg" alt = "avatar" class = "w-[15rem] px-3 rounded-lg md:rounded-none" />
+                        <img src = "/avatar.jpg" alt = "avatar" class = "px-3" />
                     </div>
-                    <div class = "text-md font-light w-9/12">
+                    <div class = "text-md font-light w-10/12">
                         Hello, My name is <span class = "font-medium">Han-Ping Wu</span>. 
                         I am a undergraduate student at National Chung Cheng University, Taiwan.
                         I am interested in <span class = "font-medium">Web Development</span> and <span class = "font-medium">Algorithm</span>.
