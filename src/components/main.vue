@@ -116,6 +116,11 @@ const educationList = ref([
 
 const experienceList = ref([
     {
+        year: "2025",
+        organization: "Algorithm Course in M.S Program of CCU",
+        position: "Teaching Assistant"
+    },
+    {
         year: "2024~2025",
         organization: "Digital Society and Security Lab (DIGI-SSL)",
         position: "Capstone Project Researcher"
