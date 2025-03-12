@@ -1,0 +1,44 @@
+---
+interface Education {
+  school: string;
+  degree: string;
+  major: string;
+  start: number;
+  graduation?: number;
+}
+
+const myEducation: Education[] = [
+  {
+    school: "National Chung Cheng University",
+    degree: "B.S.",
+    major: "Computer Science",
+    start: 2021,
+    graduation: 2025,
+  },
+  {
+    school: "National Cheng Kung University",
+    degree: "M.S.",
+    major: "Computer Science",
+    start: 2025,
+  },
+];
+---
+
+<div class="flex flex-col pt-4">
+  <h2 class="text-xl font-bold">Education</h2>
+  <ul class="list-disc p-4">
+    {
+      myEducation.map((edu) => (
+        <li>
+          <div class="flex space-x-2">
+            <p class="font-base">
+              {edu.school}
+              {edu.degree} in {edu.major}
+              {edu.start} - {edu.graduation ?? "Present"}
+            </p>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</div>

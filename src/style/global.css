@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gossamer-50: #eefbf6;
+  --color-gossamer-100: #d7f4e6;
+  --color-gossamer-200: #b1e9d2;
+  --color-gossamer-300: #7fd6b8;
+  --color-gossamer-400: #4abd98;
+  --color-gossamer-500: #27a27f;
+  --color-gossamer-600: #1c9273;
+  --color-gossamer-700: #146854;
+  --color-gossamer-800: #125344;
+  --color-gossamer-900: #104438;
+  --color-gossamer-950: #082620;
+}
+
+* {
+  @apply scroll-smooth;
+  font-family: "Noto Sans TC", "LXGW WenKai Mono TC", sans-serif;
+}
+
+.nav a {
+  @apply rounded-md p-2;
+}
+.nav a:hover {
+  @apply bg-gossamer-700 text-white duration-500;
+}
+#info a:hover {
+  @apply text-gossamer-700 underline duration-300;
+}

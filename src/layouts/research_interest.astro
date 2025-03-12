@@ -1,0 +1,21 @@
+---
+const interest = [
+  "Pairwise Comparison",
+  "Ranking",
+  "Algorithm",
+  "Graph Theory",
+];
+---
+
+<div class="flex flex-col space-y-4 pt-4">
+  <h2 class="text-xl font-bold">Research Interest</h2>
+  <div class="flex flex-row space-x-2">
+    {
+      interest.map((item) => (
+        <div class="bg-gossamer-100 text-gossamer-700 hover:bg-gossamer-300 flex items-center rounded-full px-4 py-1 text-center duration-300">
+          {item}
+        </div>
+      ))
+    }
+  </div>
+</div>

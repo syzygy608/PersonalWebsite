@@ -1,0 +1,44 @@
+---
+import "../style/global.css";
+export interface LayoutProps {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <nav
+      class="nav bg-gossamer-400 flex h-12 items-center justify-between px-3"
+    >
+      <p>Han-Ping Wu</p>
+      <ul class="flex space-x-4">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/slides">Slides</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="container mx-auto min-h-[calc(100dvh-6rem)] px-4">
+      <slot />
+    </main>
+    <footer
+      class="footer bg-gossamer-400 flex h-12 items-center justify-center px-3 text-center"
+    >
+      <p>&copy; {year} Han-Ping Wu</p>
+    </footer>
+  </body>
+</html>
