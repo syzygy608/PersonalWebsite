@@ -4,7 +4,7 @@ interface Education {
   degree: string;
   major: string;
   start: number;
-  graduation?: number;
+  graduation?: number | string;
 }
 
 const myEducation: Education[] = [
@@ -13,20 +13,20 @@ const myEducation: Education[] = [
     degree: "B.S.",
     major: "Computer Science",
     start: 2021,
-    graduation: 2025,
   },
-  {
-    school: "National Cheng Kung University",
-    degree: "M.S.",
-    major: "Computer Science",
-    start: 2025,
-  },
+  // {
+  //   school: "National Cheng Kung University",
+  //   degree: "M.S.",
+  //   major: "Computer Science",
+  //   start: 2025,
+  //   graduation: "?",
+  // },
 ];
 ---
 
 <div class="flex flex-col pt-4">
   <h2 class="text-xl font-bold">Education</h2>
-  <ul class="list-disc p-4">
+  <ul class="list-disc p-4 ml-4">
     {
       myEducation.map((edu) => (
         <li>

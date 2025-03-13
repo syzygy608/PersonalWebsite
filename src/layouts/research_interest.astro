@@ -9,10 +9,10 @@ const interest = [
 
 <div class="flex flex-col space-y-4 pt-4">
   <h2 class="text-xl font-bold">Research Interest</h2>
-  <div class="flex flex-col md:flex-row space-y-2 md:space-x-2">
+  <div class="flex flex-col items-center md:flex-row" id = "research_interest">
     {
       interest.map((item) => (
-        <div class="bg-gossamer-100 text-gossamer-700 hover:bg-gossamer-300 flex justify-center items-center text-center rounded-full p-3 h-12 duration-300">
+        <div class="bg-gossamer-100 text-gossamer-700 hover:bg-gossamer-300 flex justify-center items-center text-center rounded-full p-3 h-12 max-w-50 duration-300">
           {item}
         </div>
       ))

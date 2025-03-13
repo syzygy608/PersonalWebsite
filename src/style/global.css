@@ -28,3 +28,6 @@
 #info a:hover {
   @apply text-gossamer-700 underline duration-300;
 }
+#research_interest :not(:last-child) {
+  @apply max-md:mb-4 md:me-4;
+}
