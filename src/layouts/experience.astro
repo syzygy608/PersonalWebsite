@@ -11,13 +11,11 @@ const myExperience: Experience[] = [
     organization: "Computer Algorithm in M.S Program of CCU",
     title: "Head Teaching Assistant",
     start: 2025,
-    end: 2025,
   },
   {
     organization: "Introduction to Algorithm in CCU",
     title: "Head Teaching Assistant",
     start: 2025,
-    end: 2025,
   },
   {
     organization: "CCU Programming Contest Team",
@@ -38,7 +36,7 @@ const myExperience: Experience[] = [
             <p class="font-base">
               {exp.organization}
               {exp.title}
-              {exp.start} - {exp.end ?? "Present"}
+              in {exp.start} {exp.end ? `- ${exp.end}` : ""}
             </p>
           </div>
         </li>

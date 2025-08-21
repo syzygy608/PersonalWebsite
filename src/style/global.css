@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-gossamer-50: #eefbf6;
-  --color-gossamer-100: #d7f4e6;
-  --color-gossamer-200: #b1e9d2;
-  --color-gossamer-300: #7fd6b8;
-  --color-gossamer-400: #4abd98;
-  --color-gossamer-500: #27a27f;
-  --color-gossamer-600: #1c9273;
-  --color-gossamer-700: #146854;
-  --color-gossamer-800: #125344;
-  --color-gossamer-900: #104438;
-  --color-gossamer-950: #082620;
+    --color-nepal-50: #f4f7fa;
+    --color-nepal-100: #e6edf3;
+    --color-nepal-200: #d3dfea;
+    --color-nepal-300: #b5cadb;
+    --color-nepal-400: #8aa8c4;
+    --color-nepal-500: #7895b9;
+    --color-nepal-600: #6580ab;
+    --color-nepal-700: #5a6f9b;
+    --color-nepal-800: #4d5d80;
+    --color-nepal-900: #414e67;
+    --color-nepal-950: #2b3140;
 }
 
 * {
@@ -23,10 +23,10 @@
   @apply rounded-md p-2;
 }
 .nav a:hover {
-  @apply bg-gossamer-700 text-white duration-500;
+  @apply bg-nepal-800 text-white duration-500;
 }
 #info a:hover {
-  @apply text-gossamer-700 underline duration-300;
+  @apply text-nepal-400 underline duration-300;
 }
 #research_interest :not(:last-child) {
   @apply max-md:mb-4 md:me-4;
