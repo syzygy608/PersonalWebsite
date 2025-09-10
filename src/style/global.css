@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    --color-nepal-50: #f4f7fa;
-    --color-nepal-100: #e6edf3;
-    --color-nepal-200: #d3dfea;
-    --color-nepal-300: #b5cadb;
-    --color-nepal-400: #8aa8c4;
-    --color-nepal-500: #7895b9;
-    --color-nepal-600: #6580ab;
-    --color-nepal-700: #5a6f9b;
-    --color-nepal-800: #4d5d80;
-    --color-nepal-900: #414e67;
-    --color-nepal-950: #2b3140;
+  --color-nepal-50: #f4f7fa;
+  --color-nepal-100: #e6edf3;
+  --color-nepal-200: #d3dfea;
+  --color-nepal-300: #b5cadb;
+  --color-nepal-400: #8aa8c4;
+  --color-nepal-500: #7895b9;
+  --color-nepal-600: #6580ab;
+  --color-nepal-700: #5a6f9b;
+  --color-nepal-800: #4d5d80;
+  --color-nepal-900: #414e67;
+  --color-nepal-950: #2b3140;
 }
 
 * {

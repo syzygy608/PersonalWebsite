@@ -8,6 +8,11 @@ interface Experience {
 
 const myExperience: Experience[] = [
   {
+    organization: "Parrallel Programming in C for Multiprocessor of NCKU",
+    title: "Teaching Assistant",
+    start: 2025,
+  },
+  {
     organization: "Computer Algorithm in M.S Program of CCU",
     title: "Head Teaching Assistant",
     start: 2025,
@@ -28,7 +33,7 @@ const myExperience: Experience[] = [
 
 <div class="flex flex-col pt-4">
   <h2 class="text-xl font-bold">Experience</h2>
-  <ul class="list-disc p-4 ml-4">
+  <ul class="ml-4 list-disc p-4">
     {
       myExperience.map((exp) => (
         <li>
